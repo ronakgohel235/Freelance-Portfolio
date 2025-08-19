@@ -214,11 +214,12 @@
 
                 <div class="pricing-note">
                     <p>💳 <strong>Payments via UPI/Razorpay available for Indian clients.</strong></p>
-                    <p>All packages include data security guarantee and source file delivery. If client only wants a seperate service feel free to reach out !!
-                        
+                    <p>All packages include data security guarantee and source file delivery. If client only wants a
+                        seperate service feel free to reach out !!
+
                     </p>
                 </div>
-        
+
             </div>
         </section>
 
@@ -469,6 +470,10 @@
                             behavior: 'smooth',
                             block: 'start'
                         });
+                        function toggleMenu() {
+                            const navLinks = document.getElementById("navLinks");
+                            navLinks.classList.toggle("active");
+                        }
 
                         // Close mobile menu if open
                         const nav = document.getElementById("navLinks");
